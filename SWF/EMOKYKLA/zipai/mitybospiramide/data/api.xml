@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "utf-8"?> 
+<xml> 
+ <id>814</id> 
+ <name><![CDATA[Mitybos piramidė]]></name> 
+ <author></author> 
+ <mo_data> 
+ 
+<set> 
+ <topic id="59126685" /> 
+ <rules></rules> 
+ <abilities></abilities> 
+ <knowledge>2.4. Remiantis įgytomis žiniomis apie maisto medžiagas, jų energinę vertę, paaiškinti sveikos mitybos esmę.</knowledge> 
+ </set> 
+<set> 
+ <topic id="59126727" /> 
+ <rules></rules> 
+ <abilities></abilities> 
+ <knowledge>2.4.1. Nurodyti pagrindines maisto medžiagas: angliavandenius, baltymus, riebalus ir aptarti jų reikšmę aprūpinant organizmą energija.</knowledge> 
+ </set> 
+<set> 
+ <topic id="59126727" /> 
+ <rules></rules> 
+ <abilities></abilities> 
+ <knowledge>2.4.2. Nurodyti maisto produktų grupes ir apibūdinti jų skirtumus pagal maisto medžiagų ir vitaminų kiekį.</knowledge> 
+ </set> 
+ </mo_data> 
+ <descr><![CDATA[Nagrinėdami demonstracijoje pateikiamą sveikos mitybos piramidę išsiaiškinsite, kad, norint kasdien gauti visų reikiamų maisto medžiagų ir energijos, reikia valgyti įvairų maistą.]]></descr> 
+ <path>data/mo/mo.swf</path> 
+ <bgcolor>000000</bgcolor> 
+ <favourite>false</favourite> 
+ <xmldata>data/mo/mo.swf</xmldata> 
+ </xml>

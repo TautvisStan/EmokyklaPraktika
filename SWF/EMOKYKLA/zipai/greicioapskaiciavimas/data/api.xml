@@ -1,0 +1,69 @@
+<?xml version = "1.0" encoding = "utf-8"?> 
+<xml> 
+ <id>1181</id> 
+ <name><![CDATA[Greičio apskaičiavimas]]></name> 
+ <author></author> 
+ <mo_data> 
+ 
+<set> 
+ <topic id="59126684" /> 
+ <rules></rules> 
+ <abilities></abilities> 
+ <knowledge>1.1. Padedant mokytojui susiplanuoti ir atlikti stebėjimus bei bandymus. Saugiai ir kūrybingai naudoti paprasčiausias mokyklines gamtos tyrimo priemones, buityje naudojamus prietaisus ir medžiagas.</knowledge> 
+ </set> 
+<set> 
+ <topic id="59126684" /> 
+ <rules></rules> 
+ <abilities></abilities> 
+ <knowledge>1.3. Formuluoti paprastas išvadas, palyginti savo ir draugų gautus stebėjimų ir bandymų rezultatus.</knowledge> 
+ </set> 
+<set> 
+ <topic id="59126684" /> 
+ <rules></rules> 
+ <abilities></abilities> 
+ <knowledge>1.4. Vartoti pagrindinius matavimo vienetus.</knowledge> 
+ </set> 
+<set> 
+ <topic id="59126691" /> 
+ <rules></rules> 
+ <abilities></abilities> 
+ <knowledge>8.2. Apibūdinti judėjimą vartojant greičio, kelio, laiko sąvokas. Pagal spidometro rodmenis nustatyti automobilio greitį.</knowledge> 
+ </set> 
+<set> 
+ <topic id="59126694" /> 
+ <rules></rules> 
+ <abilities></abilities> 
+ <knowledge>1.1.1. Savais žodžiais paaiškinti, kas yra hipotezė (spėjimas).</knowledge> 
+ </set> 
+<set> 
+ <topic id="59126705" /> 
+ <rules></rules> 
+ <abilities></abilities> 
+ <knowledge>1.3.1. Pateikiant pavyzdžių paaiškinti, kas yra tyrimų rezultatas ir kas yra išvada.</knowledge> 
+ </set> 
+<set> 
+ <topic id="59126707" /> 
+ <rules></rules> 
+ <abilities></abilities> 
+ <knowledge>1.4.1. Nurodyti pagrindinius ilgio, masės, ploto, tūrio, temperatūros, greičio ir laiko vienetus.</knowledge> 
+ </set> 
+<set> 
+ <topic id="59126790" /> 
+ <rules></rules> 
+ <abilities></abilities> 
+ <knowledge>8.2.1. Judėjimą aiškinti kaip kūnų padėties kitų kūnų atžvilgiu kitimą.</knowledge> 
+ </set> 
+<set> 
+ <topic id="59126790" /> 
+ <rules></rules> 
+ <abilities></abilities> 
+ <knowledge>8.2.2. Savais žodžiais paaiškinti, ką parodo kūno judėjimo greitis.</knowledge> 
+ </set> 
+ </mo_data> 
+ <descr><![CDATA[Atlikdami tiriamąjį darbą išsiaiškinsite, kuris gyvūnas – lapė, žirafa ar dramblys – bėga greičiausiai.]]></descr> 
+ <sheet>http://gamta5-6.mkp.emokykla.lt/uploads/files/2716_reckoning_sheet_1_13332463489294.doc</sheet> 
+ <path>data/mo/mo.swf</path> 
+ <bgcolor>000000</bgcolor> 
+ <favourite>false</favourite> 
+ <xmldata>data/mo/mo.swf</xmldata> 
+ </xml>

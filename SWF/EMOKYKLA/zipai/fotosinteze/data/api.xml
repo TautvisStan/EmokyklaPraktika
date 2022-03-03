@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "utf-8"?> 
+<xml> 
+ <id>687</id> 
+ <name><![CDATA[Fotosintezė]]></name> 
+ <author></author> 
+ <mo_data> 
+ 
+<set> 
+ <topic id="59126685" /> 
+ <rules></rules> 
+ <abilities></abilities> 
+ <knowledge>2.2. Apibūdinti fotosintezės procesą, kurio metu pagaminamos organinės medžiagos, turinčios sukauptos energijos, ir kvėpavimą – procesą, dėl kurio ši energija išsiskiria ir panaudojama organizmo veiklai.</knowledge> 
+ </set> 
+<set> 
+ <topic id="59126721" /> 
+ <rules></rules> 
+ <abilities></abilities> 
+ <knowledge>2.2.1. Vartojant sąvokas šviesos energija, anglies dioksidas, organinės (maisto) medžiagos, deguonis nusakyti fotosinezės procesą ir jo reikšmę organizmams.</knowledge> 
+ </set> 
+ </mo_data> 
+ <descr><![CDATA[Demonstracijoje skirtingų spalvų judančiomis rodyklėmis parodoma, iš kur augalų lapai ima fotosintezei reikalingos energijos ir medžiagų, kokios medžiagos susidaro vykstant fotosintezei ir kur jos keliauja iš lapų.]]></descr> 
+ <path>data/mo/mo.swf</path> 
+ <bgcolor>000000</bgcolor> 
+ <favourite>false</favourite> 
+ <xmldata>data/mo/mo.swf</xmldata> 
+ </xml>

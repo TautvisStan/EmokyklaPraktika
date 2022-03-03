@@ -1,0 +1,39 @@
+<?xml version = "1.0" encoding = "utf-8"?> 
+<xml> 
+ <id>893</id> 
+ <name><![CDATA[Šešėlio susidarymas]]></name> 
+ <author></author> 
+ <mo_data> 
+ 
+<set> 
+ <topic id="59126684" /> 
+ <rules></rules> 
+ <abilities></abilities> 
+ <knowledge>1.1. Padedant mokytojui susiplanuoti ir atlikti stebėjimus bei bandymus. Saugiai ir kūrybingai naudoti paprasčiausias mokyklines gamtos tyrimo priemones, buityje naudojamus prietaisus ir medžiagas.</knowledge> 
+ </set> 
+<set> 
+ <topic id="59126831" /> 
+ <rules></rules> 
+ <abilities></abilities> 
+ <knowledge>10.2.1. Nurodyti, kad Žemė turi magnetinį lauką, kompasu nustatyti pasaulio šalis.</knowledge> 
+ </set> 
+<set> 
+ <topic id="59126694" /> 
+ <rules></rules> 
+ <abilities></abilities> 
+ <knowledge>1.1.2. Padedant mokytojui pagal aprašymą atlikti paprastus stebėjimus ir bandymus, rezultatus pateikti žodžiu ar raštu.</knowledge> 
+ </set> 
+<set> 
+ <topic id="59126693" /> 
+ <rules></rules> 
+ <abilities></abilities> 
+ <knowledge>10.3. Bendrais bruožais apibūdinti Saulės sistemą, žvaigždes.</knowledge> 
+ </set> 
+ </mo_data> 
+ <descr><![CDATA[Atlikdami tiriamąjį darbą išsiaiškinsite, kada susidaro šešėlis.]]></descr> 
+ <sheet>http://gamta5-6.mkp.emokykla.lt/uploads/files/2714_reckoning_sheet_1_13123470991552.doc</sheet> 
+ <path>data/mo/mo.swf</path> 
+ <bgcolor>000000</bgcolor> 
+ <favourite>false</favourite> 
+ <xmldata>data/mo/mo.swf</xmldata> 
+ </xml>

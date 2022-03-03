@@ -1,0 +1,57 @@
+<?xml version = "1.0" encoding = "utf-8"?> 
+<xml> 
+ <id>1483</id> 
+ <name><![CDATA[Šviesos spalvos]]></name> 
+ <author></author> 
+ <mo_data> 
+ 
+<set> 
+ <topic id="59126684" /> 
+ <rules></rules> 
+ <abilities></abilities> 
+ <knowledge>1.1. Padedant mokytojui susiplanuoti ir atlikti stebėjimus bei bandymus. Saugiai ir kūrybingai naudoti paprasčiausias mokyklines gamtos tyrimo priemones, buityje naudojamus prietaisus ir medžiagas.</knowledge> 
+ </set> 
+<set> 
+ <topic id="59126684" /> 
+ <rules></rules> 
+ <abilities></abilities> 
+ <knowledge>1.3. Formuluoti paprastas išvadas, palyginti savo ir draugų gautus stebėjimų ir bandymų rezultatus.</knowledge> 
+ </set> 
+<set> 
+ <topic id="59126824" /> 
+ <rules></rules> 
+ <abilities></abilities> 
+ <knowledge>9.12.1. Nurodyti svarbiausius šviesos šaltinius.</knowledge> 
+ </set> 
+<set> 
+ <topic id="59126694" /> 
+ <rules></rules> 
+ <abilities></abilities> 
+ <knowledge>1.1.1. Savais žodžiais paaiškinti, kas yra hipotezė (spėjimas).</knowledge> 
+ </set> 
+<set> 
+ <topic id="59126694" /> 
+ <rules></rules> 
+ <abilities></abilities> 
+ <knowledge>1.1.2. Padedant mokytojui pagal aprašymą atlikti paprastus stebėjimus ir bandymus, rezultatus pateikti žodžiu ar raštu.</knowledge> 
+ </set> 
+<set> 
+ <topic id="59126705" /> 
+ <rules></rules> 
+ <abilities></abilities> 
+ <knowledge>1.3.1. Pateikiant pavyzdžių paaiškinti, kas yra tyrimų rezultatas ir kas yra išvada.</knowledge> 
+ </set> 
+<set> 
+ <topic id="59126824" /> 
+ <rules></rules> 
+ <abilities></abilities> 
+ <knowledge>9.12.6. Pateikti pavyzdžių, kaip saugoti regą.</knowledge> 
+ </set> 
+ </mo_data> 
+ <descr><![CDATA[Atlikdami tiriamąjį darbą išsiaiškinsite, ką matome sudėję visų septynių spektro spalvų šviesas.]]></descr> 
+ <sheet>http://gamta5-6.mkp.emokykla.lt/uploads/files/2766_reckoning_sheet_1_13154678133352.doc</sheet> 
+ <path>data/mo/mo.swf</path> 
+ <bgcolor>000000</bgcolor> 
+ <favourite>false</favourite> 
+ <xmldata>data/mo/mo.swf</xmldata> 
+ </xml>

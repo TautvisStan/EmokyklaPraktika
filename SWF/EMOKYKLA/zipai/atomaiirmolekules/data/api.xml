@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "utf-8"?> 
+<xml> 
+ <id>967</id> 
+ <name><![CDATA[Atomai ir molekulės]]></name> 
+ <author></author> 
+ <mo_data> 
+ 
+<set> 
+ <topic id="59126688" /> 
+ <rules></rules> 
+ <abilities></abilities> 
+ <knowledge>5.2. Taikyti įgytas žinias apie medžiagas ir jų sudėtį kasdieniame gyvenime.</knowledge> 
+ </set> 
+<set> 
+ <topic id="59126765" /> 
+ <rules></rules> 
+ <abilities></abilities> 
+ <knowledge>5.2.1. Savais žodžiais paaiškinti, kad medžiagos sudarytos iš dalelių.</knowledge> 
+ </set> 
+ </mo_data> 
+ <descr><![CDATA[Nagrinėdami skirtingų medžiagų sudėtį, išsiaiškinsite, iš kokių dalelių sudarytos šios medžiagos ir kuo molekulės skiriasi nuo atomų.]]></descr> 
+ <sheet>http://gamta5-6.mkp.emokykla.lt/uploads/files/2712_reckoning_sheet_1_10582943170964.doc</sheet> 
+ <path>data/mo/mo.swf</path> 
+ <bgcolor>000000</bgcolor> 
+ <favourite>false</favourite> 
+ <xmldata>data/mo/mo.swf</xmldata> 
+ </xml>

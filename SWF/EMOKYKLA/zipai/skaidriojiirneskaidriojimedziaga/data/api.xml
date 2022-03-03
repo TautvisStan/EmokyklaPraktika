@@ -1,0 +1,38 @@
+<?xml version = "1.0" encoding = "utf-8"?> 
+<xml> 
+ <id>1122</id> 
+ <name><![CDATA[Skaidrioji ir neskaidrioji medžiaga]]></name> 
+ <author></author> 
+ <mo_data> 
+ 
+<set> 
+ <topic id="59126684" /> 
+ <rules></rules> 
+ <abilities></abilities> 
+ <knowledge>1.1. Padedant mokytojui susiplanuoti ir atlikti stebėjimus bei bandymus. Saugiai ir kūrybingai naudoti paprasčiausias mokyklines gamtos tyrimo priemones, buityje naudojamus prietaisus ir medžiagas.</knowledge> 
+ </set> 
+<set> 
+ <topic id="59126824" /> 
+ <rules></rules> 
+ <abilities></abilities> 
+ <knowledge>9.12.1. Nurodyti svarbiausius šviesos šaltinius.</knowledge> 
+ </set> 
+<set> 
+ <topic id="59126694" /> 
+ <rules></rules> 
+ <abilities></abilities> 
+ <knowledge>1.1.2. Padedant mokytojui pagal aprašymą atlikti paprastus stebėjimus ir bandymus, rezultatus pateikti žodžiu ar raštu.</knowledge> 
+ </set> 
+<set> 
+ <topic id="59126824" /> 
+ <rules></rules> 
+ <abilities></abilities> 
+ <knowledge>9.12.4. Paaiškinti lupos paskirtį.</knowledge> 
+ </set> 
+ </mo_data> 
+ <descr><![CDATA[Nagrinėdami demonstracijoje pateikiamus pavyzdžius išsiaiškinsite, kokia medžiaga yra skaidrioji, o kokia – neskaidrioji.]]></descr> 
+ <path>data/mo/mo.swf</path> 
+ <bgcolor>000000</bgcolor> 
+ <favourite>false</favourite> 
+ <xmldata>data/mo/mo.swf</xmldata> 
+ </xml>
