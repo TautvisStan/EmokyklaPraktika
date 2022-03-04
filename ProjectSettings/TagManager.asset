@@ -38,6 +38,15 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 1241882765
+    locked: 0
+  - name: Aidas1
+    uniqueID: 3345116289
+    locked: 0
+  - name: Aidas2
+    uniqueID: 3367888805
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0

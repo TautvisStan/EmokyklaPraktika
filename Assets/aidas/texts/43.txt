@@ -1,0 +1,3 @@
+Garsas nuo kietųjų kūnų paviršiaus atsispindi.  Atskirus garsus galima išgirsti, jeigu 
+--- RECORDSEPARATOR ---
+laiko tarpai tarp jų yra didesni negu 1/10 sekundės.
