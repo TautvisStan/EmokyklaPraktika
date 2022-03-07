@@ -1,25 +1,28 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class Person : MonoBehaviour
+using Aidas;
+namespace Aidas
 {
-    public GameObject idle;
-    public GameObject animationObj;
-    public void PlayAnimation()
+    public class Person : MonoBehaviour
     {
-        
-        StartCoroutine(Animation());
+        public GameObject idle;
+        public GameObject animationObj;
+        public void PlayAnimation()
+        {
 
-    }
-    IEnumerator Animation()
-    {
-        idle.SetActive(false);
-        animationObj.SetActive(true);
-        Animator anim = animationObj.GetComponentInChildren<Animator>();
-        anim.enabled = true;
-        yield return new WaitForSeconds(anim.GetCurrentAnimatorStateInfo(0).length + anim.GetCurrentAnimatorStateInfo(0).normalizedTime);
-        animationObj.SetActive(false);
-        idle.SetActive(true);
+            StartCoroutine(Animation());
+
+        }
+        IEnumerator Animation()
+        {
+            idle.SetActive(false);
+            animationObj.SetActive(true);
+            Animator anim = animationObj.GetComponentInChildren<Animator>();
+            anim.enabled = true;
+            yield return new WaitForSeconds(anim.GetCurrentAnimatorStateInfo(0).length + anim.GetCurrentAnimatorStateInfo(0).normalizedTime);
+            animationObj.SetActive(false);
+            idle.SetActive(true);
+        }
     }
 }
