@@ -6,7 +6,7 @@ namespace atomaiirmolekules
     public class Button2 : MonoBehaviour
     {
         // Start is called before the first frame update
-        public MenuScript script;
+        public MenuScript MainMenu;
         public GameObject background1;
         public GameObject background2;
         public Texture2D cursor;
@@ -28,7 +28,7 @@ namespace atomaiirmolekules
         void OnMouseDown()
         {
             Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
-            //MainMenu.MoveTo2()
+            MainMenu.OpenMenu2();
             background1.SetActive(true);
             background2.SetActive(false);
         }

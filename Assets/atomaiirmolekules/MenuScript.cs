@@ -16,8 +16,8 @@ namespace atomaiirmolekules
         }
         public void OpenMenu2()
         {
-            Menu2.SetActive(false);
-            MainMenu.SetActive(true);
+            Menu2.SetActive(true);
+            MainMenu.SetActive(false);
         }
     }
 }
