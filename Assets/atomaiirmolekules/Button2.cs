@@ -5,7 +5,7 @@ namespace atomaiirmolekules
 {
     public class Button2 : MonoBehaviour
     {
-        // Start is called before the first frame update
+        
         public MenuScript MainMenu;
         public GameObject background1;
         public GameObject background2;
