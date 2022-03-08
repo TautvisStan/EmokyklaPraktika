@@ -1,29 +1,18 @@
-using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine;
 namespace sviesosspalvos
 {
-    public class Color : MonoBehaviour
+    public class Wire : MonoBehaviour
     {
-
         private Camera cam;
         private Vector3 position;
-        public GameObject circle;
         public GameObject target;
         public Animation anim;
-        public GameObject label;
         public ColorsController mainController;
-
-
         void Awake()
         {
             cam = Camera.main;
-        }
-
-        void OnMouseDown()
-        {
-            position = transform.position;
-            mainController.SetColorMode("Circle");
         }
         private void OnMouseUp()
         {
@@ -48,18 +37,20 @@ namespace sviesosspalvos
 
 
 
-                label.SetActive(false);
-                mainController.ColorSet(this.gameObject.name);
-                mainController.SetColorMode();
+                mainController.WireSet(this.gameObject.name);
+                mainController.SetWireMode();
+
                 Destroy(this);
 
             }
             else
-            {
-                mainController.SetColorMode(this.gameObject.name);
                 transform.position = position;
-            }
-
+            mainController.SetWireMode();
+        }
+        void OnMouseDown()
+        {
+            position = transform.position;
+            mainController.SetWireMode(this.gameObject.name);
         }
         void OnMouseDrag()
         {
@@ -72,16 +63,5 @@ namespace sviesosspalvos
             mousePos.z = 0;
             return mousePos;
         }
-
-        void OnMouseEnter()
-        {
-            label.SetActive(true);
-        }
-
-        void OnMouseExit()
-        {
-            label.SetActive(false);
-        }
     }
-
 }
