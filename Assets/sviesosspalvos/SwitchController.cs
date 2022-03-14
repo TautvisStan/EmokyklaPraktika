@@ -26,6 +26,8 @@ namespace sviesosspalvos
                     circle.Spinning();
                     TopText.text = SwitchTurnedOn;
                     arrows.RemoveArrows();
+                    TurnedOff.SetActive(false);
+                    TurnedOn.SetActive(true);
                 }
                 else
                 {
@@ -33,6 +35,8 @@ namespace sviesosspalvos
                     circle.Slowing();
                     TopText.text = SwitchTurnedOff;
                     arrows.ShowArrow("Switch");
+                    TurnedOff.SetActive(true);
+                    TurnedOn.SetActive(false);
                 }
 
             }
