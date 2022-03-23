@@ -56,6 +56,10 @@ namespace VideoPlayerCustom
             float percentage = dist / xDist;
             player.frame = (long)((float)player.clip.frameCount * (float)percentage);
         }
+        public float ReturnProgress()
+        {
+            return player.frame / (float)player.clip.frameCount;
+        }
         public void MovingReleased()
         {
             if (playing)
