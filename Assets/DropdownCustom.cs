@@ -8,7 +8,7 @@ public class DropdownCustom : MonoBehaviour
     public string[] values;
     public int selected = 0;
     public TextMeshPro text;
-    private bool opened = false;
+    public bool opened = false;
     public GameObject[] Options;
     public GameObject OpenButton;
     public GameObject CloseButton;
@@ -42,6 +42,16 @@ public class DropdownCustom : MonoBehaviour
         else
         {
             Select(selected);
+        }
+    }
+    public void CloseDropdown()
+    {
+        opened = false;
+        OpenButton.SetActive(true);
+        CloseButton.SetActive(false);
+        foreach (GameObject obj in Options)
+        {
+            obj.SetActive(false);
         }
     }
 }
