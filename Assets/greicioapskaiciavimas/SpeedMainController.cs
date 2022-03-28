@@ -174,7 +174,7 @@ namespace greicioapskaiciavimas
                     secs = "0" + secs;
                 }
                 ElephantText.text = string.Format("{0}:{1}", mins, secs);
-                if (percentage == 1)
+                if (percentage >= 0.99999)
                 {
                     bools[0] = false;
                     Elephant.GetComponent<Animator>().enabled = false;
@@ -193,7 +193,7 @@ namespace greicioapskaiciavimas
                     secs = "0" + secs;
                 }
                 FoxText.text = string.Format("{0}:{1}", mins, secs);
-                if (percentage == 1)
+                if (percentage >= 0.99999)
                 {
                     bools[1] = false;
                     Fox.GetComponent<Animator>().enabled = false;
@@ -213,7 +213,7 @@ namespace greicioapskaiciavimas
                     secs = "0" + secs;
                 }
                 GiraffeText.text = string.Format("{0}:{1}", mins, secs);
-                if (percentage == 1)
+                if (percentage >= 0.99999)
                 {
                     bools[2] = false;
                     Giraffe.GetComponent<Animator>().enabled = false;
