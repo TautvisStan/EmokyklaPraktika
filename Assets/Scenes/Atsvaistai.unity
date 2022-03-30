@@ -5923,6 +5923,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1702806363575459360, guid: 90279f6bcc55784418f003b5d0ab84b5, type: 3}
+      propertyPath: Parts.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1702806363575459360, guid: 90279f6bcc55784418f003b5d0ab84b5, type: 3}
+      propertyPath: Parts.Array.data[0]
+      value: 
+      objectReference: {fileID: 259757498}
+    - target: {fileID: 1702806363575459360, guid: 90279f6bcc55784418f003b5d0ab84b5, type: 3}
+      propertyPath: Parts.Array.data[1]
+      value: 
+      objectReference: {fileID: 132563139}
+    - target: {fileID: 1702806363575459360, guid: 90279f6bcc55784418f003b5d0ab84b5, type: 3}
+      propertyPath: Parts.Array.data[2]
+      value: 
+      objectReference: {fileID: 1242754031}
+    - target: {fileID: 1702806363575459360, guid: 90279f6bcc55784418f003b5d0ab84b5, type: 3}
+      propertyPath: Parts.Array.data[3]
+      value: 
+      objectReference: {fileID: 373101224}
     - target: {fileID: 2784837821605214420, guid: 90279f6bcc55784418f003b5d0ab84b5, type: 3}
       propertyPath: m_Name
       value: BottomLeft
