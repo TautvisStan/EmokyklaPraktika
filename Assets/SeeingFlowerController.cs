@@ -48,7 +48,11 @@ namespace rega
                         }
                         float dist = Moving.transform.position.x - StartPos.transform.position.x;
                         float percentage = dist / xDist;
-                        FlowerImage.SetScale(percentage);
+                        
+                        float test = (Moving.transform.position.x - StartPos.transform.position.x) / (EndPos.transform.position.x - StartPos.transform.position.x);
+                        Debug.Log(string.Format("TEST {0}", percentage));
+                        Debug.Log(string.Format("TEST2 {0}", test));
+                        FlowerImage.SetScale(test);
                         BlurOverlay.Intensity = 1;
                         BlurOverlay.EndBlur(0.5f);
                         
