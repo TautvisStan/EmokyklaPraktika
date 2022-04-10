@@ -11,9 +11,7 @@ namespace rega
         public GameObject Moving;
         public UIBlur BlurOverlay;
         private float xDist;
-        public GameObject FlowerImage;
-        public GameObject FlowerImageLeftSide;
-        public GameObject FlowerImageRightSide;
+        public SeeingFlowerImage FlowerImage;
         private void Start()
         {
             xDist = EndPos.transform.position.x - StartPos.transform.position.x;
@@ -34,25 +32,26 @@ namespace rega
                 {
                     if (System.Math.Abs(Moving.transform.position.x - xPos) > 0.001)
                     {
-                        Debug.Log(xPos);
                         bool movedRight = false;
                         if (Moving.transform.position.x < xPos)
                         {
                             movedRight = true;
                         }
                         Moving.transform.position = new Vector3(xPos, Moving.transform.position.y);
-                        BlurOverlay.Intensity = 1;
-                        BlurOverlay.EndBlur(0.5f);
-                        float dist = Moving.transform.position.x - StartPos.transform.position.x;
-                        float percentage = dist / xDist;
                         if (movedRight)
                         {
-                            FlowerImage.transform.position = FlowerImageRightSide.transform.position;
+                            FlowerImage.SetRightPos();
                         }
                         else
                         {
-                            FlowerImage.transform.position = FlowerImageLeftSide.transform.position;
+                            FlowerImage.SetLeftPos();
                         }
+                        float dist = Moving.transform.position.x - StartPos.transform.position.x;
+                        float percentage = dist / xDist;
+                        FlowerImage.SetScale(percentage);
+                        BlurOverlay.Intensity = 1;
+                        BlurOverlay.EndBlur(0.5f);
+                        
                     }
                 }
             }
