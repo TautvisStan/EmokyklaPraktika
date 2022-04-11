@@ -10,12 +10,8 @@ namespace rega
         public GameObject EndPos;
         public GameObject Moving;
         public UIBlur BlurOverlay;
-        private float xDist;
         public SeeingFlowerImage FlowerImage;
-        private void Start()
-        {
-            xDist = EndPos.transform.position.x - StartPos.transform.position.x;
-        }
+        public SeeingLens Lens;
         public void MovingDragged(float xPos)
         {
             if (xPos > EndPos.transform.position.x)
@@ -33,6 +29,7 @@ namespace rega
                     if (System.Math.Abs(Moving.transform.position.x - xPos) > 0.001)
                     {
                         bool movedRight = false;
+                        float percentage = (Moving.transform.position.x - StartPos.transform.position.x) / (EndPos.transform.position.x - StartPos.transform.position.x);
                         if (Moving.transform.position.x < xPos)
                         {
                             movedRight = true;
@@ -41,18 +38,19 @@ namespace rega
                         if (movedRight)
                         {
                             FlowerImage.SetRightPos();
+                            
                         }
                         else
                         {
                             FlowerImage.SetLeftPos();
                         }
-                        float dist = Moving.transform.position.x - StartPos.transform.position.x;
-                        float percentage = dist / xDist;
-                        
-                        float test = (Moving.transform.position.x - StartPos.transform.position.x) / (EndPos.transform.position.x - StartPos.transform.position.x);
-                        Debug.Log(string.Format("TEST {0}", percentage));
-                        Debug.Log(string.Format("TEST2 {0}", test));
-                        FlowerImage.SetScale(test);
+                        Lens.SetScale(percentage, movedRight);
+                        float varA = Lens.transform.position.x - EndPos.transform.position.x;
+                        float varB = Lens.transform.position.x - Moving.transform.position.x;
+
+
+
+                        FlowerImage.SetScale(varA, varB);
                         BlurOverlay.Intensity = 1;
                         BlurOverlay.EndBlur(0.5f);
                         

@@ -15,40 +15,43 @@ public class SeeingFlowerImage : MonoBehaviour
     float xDist;
     float scaleDiff;
     Vector3 correctScale;
+    void Start()
+    {
+        correctScale = SmallImage.transform.localScale;
+    }
     public void SetLeftPos()
     {
-     /*   transform.position = LeftSide.transform.position;
+        transform.position = LeftSide.transform.position;
         rightSide = false;
-        xDist = CenterSide.transform.position.x - LeftSide.transform.position.x;*/
+        xDist = CenterSide.transform.position.x - LeftSide.transform.position.x;
     }
     public void SetRightPos()
     {
-      /*  transform.position = RightSide.transform.position;
+        transform.position = RightSide.transform.position;
         rightSide = true;
-        xDist = RightSide.transform.position.x - CenterSide.transform.position.x;*/
+        xDist = RightSide.transform.position.x - CenterSide.transform.position.x;
     }
-    public void SetScale(float percentage)
+    public void SetScale(float a, float b)
     {
-      //  Debug.Log(percentage);
-        scaleDiff = LargeImage.transform.localScale.x - SmallImage.transform.localScale.x;
-        correctScale = new Vector3(SmallImage.transform.localScale.x + scaleDiff * percentage, SmallImage.transform.localScale.y + scaleDiff * percentage);
+        float scaletest = LargeImage.transform.localScale.x * a / b;
+        correctScale = new Vector3(scaletest, scaletest);
         transform.localScale = correctScale;
-     /*   if (rightSide)
+        if (rightSide)
         {
 
-            transform.localScale = new Vector3(transform.localScale.x * 1.15f, transform.localScale.y * 1.15f);
+            transform.localScale = new Vector3(transform.localScale.x * 1.23f, transform.localScale.y * 1.23f);
             scaleDiff = transform.localScale.x - correctScale.x;
         }
         else
         {
-            transform.localScale = new Vector3(transform.localScale.x * 1/1.15f, transform.localScale.y * 1/1.15f);
+            transform.localScale = new Vector3(transform.localScale.x * 1/1.3f, transform.localScale.y * 1/1.3f);
             scaleDiff = correctScale.x - transform.localScale.x;
-        }*/
+        }
     }
     private void Update()
     {
-      //  UpdatePosition(BlurImage.Intensity);
-    //    UpdateScale(BlurImage.Intensity);
+        UpdatePosition(BlurImage.Intensity);
+        UpdateScale(BlurImage.Intensity);
     }
     public void UpdateScale(float percentage)
     {
