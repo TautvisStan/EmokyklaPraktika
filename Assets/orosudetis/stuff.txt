@@ -1,0 +1,86 @@
+      public const tankis_8000:Number = 0.53;
+      
+      public const tankis_0:Number = 1.23;
+
+n2_molekuliu_kiekis_8000 = Math.round(mc_diagrama.mc_azoto_molekules.numChildren * tankis_8000 / tankis_0);
+         o2_molekuliu_kiekis_8000 = Math.round(mc_diagrama.mc_deguonies_molekules.numChildren * tankis_8000 / tankis_0);
+         n2_molekuliu_retejimas_kadrui = (mc_diagrama.mc_azoto_molekules.numChildren - n2_molekuliu_kiekis_8000) / kelio_ilgis_fr; - kadrai
+         o2_molekuliu_retejimas_kadrui = (mc_diagrama.mc_deguonies_molekules.numChildren - o2_molekuliu_kiekis_8000) / kelio_ilgis_fr;
+
+if(param1 == 330)
+         {
+            oro_tankis = "0,53";
+            aukstis = "8000";
+         }
+         else if(param1 >= 305)
+         {
+            oro_tankis = "0,59";
+            aukstis = "7000";
+         }
+         else if(param1 >= 267)
+         {
+            oro_tankis = "0,66";
+            aukstis = "6000";
+         }
+         else if(param1 >= 243)
+         {
+            oro_tankis = "0,74";
+            aukstis = "5000";
+         }
+         else if(param1 >= 194)
+         {
+            oro_tankis = "0,82";
+            aukstis = "4000";
+         }
+         else if(param1 >= 148)
+         {
+            oro_tankis = "0,91";
+            aukstis = "3000";
+         }
+         else if(param1 >= 96)
+         {
+            oro_tankis = "1,00";
+            aukstis = "2000";
+         }
+         else if(param1 >= 45)
+         {
+            oro_tankis = "1,11";
+            aukstis = "1000";
+         }
+         else if(param1 == 1)
+         {
+            oro_tankis = "1,23";
+            aukstis = "0";
+         }
+         tf_aukstis.text = aukstis;
+         tf_tankis.text = oro_tankis;
+
+
+
+param1 = nuotolis
+var _loc3_:int = Math.round(param1 * n2_molekuliu_retejimas_kadrui);
+         _loc2_ = 0;
+         while(_loc2_ < _loc3_)
+         {
+            mc_diagrama.mc_azoto_molekules.getChildAt(n2_idx_arr[_loc2_]).visible = false;
+            _loc2_++;
+         }
+         _loc2_ = _loc3_;
+         while(_loc2_ < mc_diagrama.mc_azoto_molekules.numChildren)
+         {
+            mc_diagrama.mc_azoto_molekules.getChildAt(n2_idx_arr[_loc2_]).visible = true;
+            _loc2_++;
+         }
+         var _loc4_:int = Math.round(param1 * o2_molekuliu_retejimas_kadrui);
+         _loc2_ = 0;
+         while(_loc2_ < _loc4_)
+         {
+            mc_diagrama.mc_deguonies_molekules.getChildAt(o2_idx_arr[_loc2_]).visible = false;
+            _loc2_++;
+         }
+         _loc2_ = _loc4_;
+         while(_loc2_ < mc_diagrama.mc_deguonies_molekules.numChildren)
+         {
+            mc_diagrama.mc_deguonies_molekules.getChildAt(o2_idx_arr[_loc2_]).visible = true;
+            _loc2_++;
+         }
