@@ -22,7 +22,6 @@ public class MixturesMilkAnimation : MixturesAbstractAnim
         running = true;
         AnimationWindow.SetActive(true);
         StartCoroutine(MainAnimation());
-        
     }
     public override void StopAnimation()
     {
