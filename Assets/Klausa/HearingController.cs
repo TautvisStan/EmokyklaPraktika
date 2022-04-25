@@ -28,6 +28,13 @@ public class HearingController : MonoBehaviour
     public Animation FadeIn;
     public Animation Reposition;
     public Animator BrainAnimation;
+    public GameObject BackState;
+    public GameObject CurrentState;
+    private void Start()
+    {
+        CurrentState = GetComponentInParent<HearingState>().gameObject;
+        BackState = GetComponentInParent<HearingMainState>().StateToInstantiate;
+    }
     private void OnMouseDown()
     {
         if (buttonEnabled)
@@ -79,7 +86,10 @@ public class HearingController : MonoBehaviour
             }
             if (stage == 4)
             {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+                //Instantiate(BackState, GetComponentInParent<HearingMainState>().gameObject,)
+                GameObject Repeat = Instantiate(BackState, BackState.transform.position, new Quaternion(), GetComponentInParent<HearingMainState>().gameObject.transform);
+                Repeat.SetActive(true);
+                Destroy(CurrentState);
             }
         }
     }
