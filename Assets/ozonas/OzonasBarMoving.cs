@@ -10,7 +10,6 @@ namespace ozonas
         private Vector3 position;
         public OzoneMainS1 mainController;
 
-
         void Awake()
         {
             cam = Camera.main;
