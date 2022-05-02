@@ -1056,7 +1056,7 @@ MonoBehaviour:
   BrokenImage: {fileID: 21300000, guid: 3bb783ce91c229f4d8117c1fb2c9d462, type: 3}
   FrameName: {fileID: 1454353652}
   Ocular: {fileID: 1486475604}
-  MilkAnim: {fileID: 0}
+  MilkAnim: {fileID: 1189627286}
 --- !u!1 &158792886
 GameObject:
   m_ObjectHideFlags: 0
