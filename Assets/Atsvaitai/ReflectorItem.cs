@@ -16,7 +16,7 @@ namespace atsvaitai
         public ReflectorController4 mainController;
         void OnMouseDrag()
         {
-            transform.position = GetMousePos();
+            transform.localPosition = GetMousePos();
         }
         public void MoveTo(ReflectorTarget target)
         {

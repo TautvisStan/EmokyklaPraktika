@@ -26,7 +26,7 @@ public class MicroscopeKnob : MonoBehaviour
     void OnMouseDrag()
     {
 
-        Vector3 mousePos = GetMousePos();// - ClickOffset;
+        Vector3 mousePos = GetMousePos();
         float angle = Mathf.Atan2(mousePos.y - transform.position.y, mousePos.x - transform.position.x) * Mathf.Rad2Deg;
         angle = angle - CurrentRotation2;
         transform.rotation = Quaternion.AngleAxis(CurrentRotation + angle, transform.forward);

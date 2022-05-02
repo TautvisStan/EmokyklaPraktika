@@ -50,7 +50,7 @@ public class SoundWavesCont2 : MonoBehaviour
                 obj.transform.position += new Vector3(WaveSpeed, 0, 0);
             }
             Timer += Time.fixedDeltaTime;
-            TimerText.text = "Laikas: " + (float)System.Math.Round((decimal)Timer, 2) + " ms";
+            TimerText.text = "Laikas: " + System.Math.Round((decimal)Timer, 2).ToString("0.00") + " ms";
             if (Timer >= AnimTimer)
             {
                 Timer = 0;
